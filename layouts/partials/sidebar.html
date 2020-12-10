@@ -3,6 +3,9 @@
   <section class="sidebar_inner">
     <h2>{{ $s.Author }}</h2>
     <div>
+      <img style="margin-top: 0;" src="{{absLangURL $s.authorPicture}}"/>
+    </div>
+    <div>
       {{ $s.IntroDescription }}
     </div>
     <a href='{{ absLangURL "about/" }}' class="button mt-1" role="button">{{ T "read_more" }}</a>
